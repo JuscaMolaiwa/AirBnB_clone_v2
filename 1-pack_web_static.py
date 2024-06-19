@@ -1,5 +1,4 @@
-
-  #!/usr/bin/python3
+#!/usr/bin/python3
 """
 Fabric script to generate tgz archive
 Execute: fab -f 1-pack_web_static.py do_pack
