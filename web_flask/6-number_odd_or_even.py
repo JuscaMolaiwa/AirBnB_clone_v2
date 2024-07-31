@@ -48,11 +48,11 @@ def numbersandtemplates(n):
 def numbersandevenness(n):
     """Display a HTML page only if n is an integer"""
     if n % 2 == 0:
-        evenness = 'even'
+        even = 'even'
     else:
-        evenness = 'odd'
+        even = 'odd'
     return render_template('6-number_odd_or_even.html', n=n,
-                           evenness=evenness)
+                           even=even)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port='5000')
